@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HomeController {
+public class KimHomeController {
 	@RequestMapping(value = "/KimHome", method=RequestMethod.GET)
 	@ResponseBody
 	public String goHome(HttpServletRequest request) {
